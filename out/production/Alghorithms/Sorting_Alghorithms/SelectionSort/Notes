@@ -1,0 +1,9 @@
+
+
+    TIME COMPLEXITY : En kötü durumda O(n2) zaman alırlar ve bu algoritma
+en iyi durumda bile O(n2) zaman aldığı için zaman açısından verimsiz
+bir algoritma olarak sınıflandırılıyor. En önemli avantajı bellek
+kullanımında O(1) ekstra alan (temp değişken için ) kullanması. Bu avantajıyla
+da zaman açısından gerisinde kaldığı birçok gelişmiş algoritmayı geride bırakıyor.
+Birkaç elemandan oluşan dizileri sıralarken hızlı kod yazmak açısından
+bu algoritmayı kullanabilirsiniz.

@@ -1,0 +1,29 @@
+ Örneğin a = {2,4,5,3,1,6} şeklinde bir dizimiz olsun ve üzerine geldiğimiz
+  eleman da a[3] = 3 olsun. Görüldüğü gibi, üzerine geldiğimiz elemanın sol
+  tarafı sıralı ve sağ tarafı karışık düzende. Bu durumda algoritma 3’ün
+  solunda olup da 3’ten büyük olan elemanları birer eleman sağa kaydıracak
+  ve açılan boşluğa da 3’ü yerleştirecek.
+  Adım adım gidecek olursak:
+  {2,4,5,3,1,6} -> {2,4,5,5,1,6} -> {2,4,4,5,1,6} -> {2,3,4,5,1,6}.
+  Daha sonra bir sonraki elemana geçilerek
+  a[4] = 1 elemanına gelinir ve o da sola kaydırılarak
+  {1,2,3,4,5,6} şeklindeki sıralı dizimizi buluruz.
+
+ TIME COMPLEXITY : Bu algoritma en iyi durumda O(n) ve en kötü durumda
+ O(n2), yani ortalama olarak O(n2) zaman alıyor. Fazla karışık olmayan,
+ yani neredeyse sıralı diyebileceğimiz diziler üzerinde çalıştırıldığında
+ seçmeli sıralamaya göre zamanı çok daha verimli kullanıyor. Ek olarak O(1)
+ bellek alanı kullanması açısından da birçok gelişmiş sıralama algoritmasını
+ geride bırakıyor. Çok karmaşık ve büyük dizilerde, özellikle de küçük
+ terimleri sonlarında olan dizilerde tavsiye edilmiyor.
+
+ Örneğin a = {2,4,5,3,1,6} şeklinde bir dizimiz olsun ve üzerine geldiğimiz
+ eleman da a[3] = 3 olsun. Görüldüğü gibi, üzerine geldiğimiz elemanın sol
+ tarafı sıralı ve sağ tarafı karışık düzende. Bu durumda algoritma 3’ün
+ solunda olup da 3’ten büyük olan elemanları birer eleman sağa kaydıracak
+ ve açılan boşluğa da 3’ü yerleştirecek.
+ Adım adım gidecek olursak:
+ {2,4,5,3,1,6} -> {2,4,5,5,1,6} -> {2,4,4,5,1,6} -> {2,3,4,5,1,6}.
+ Daha sonra bir sonraki elemana geçilerek
+ a[4] = 1 elemanına gelinir ve o da sola kaydırılarak
+ {1,2,3,4,5,6} şeklindeki sıralı dizimizi buluruz.

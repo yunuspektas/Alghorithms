@@ -1,0 +1,26 @@
+    Örneğin : İlk elemandan son elemana kadar her elemanı kendinden sonra
+gelen kendinden küçük elemanların en küçüğü ile yer değiştiriyoruz.
+Örneğin aşağıdaki diziyi 3. elemanına kadar sıraladığımızı düşünelim
+ve daha sonra ne yapacağımıza bakalım.
+
+          {1, 2, 3, 10, 6, 4, 7}
+
+ Gördüğümüz gibi, 3. elemana kadar sıralanmış bir dizimiz var. Bu durumda
+ şu anda 4. eleman olan 10’a bakmaktayız ve kuralımıza göre, 10’dan sonra
+ gelen ve 10’dan küçük olan en küçük elemanı bulup 10 ile yerini değiştirmemiz
+ erekiyor. Bu adımda bu kurala uyan sayımız 4. Yerlerini değiştirdiğimizde
+ dizimiz şu hale geliyor:
+
+          {1, 2, 3, 4, 6, 10, 7}
+
+ Üçüncü elemana baktığımıza göre bir sonraki adımda da dördüncü elemana
+ bakıyoruz ve kuralı uyguluyoruz. Dizinin sonuna kadar böyle devam ettiğimizde
+ tüm diziyi sıralamış oluyoruz.
+
+    TIME COMPLEXITY : En kötü durumda O(n2) zaman alırlar ve bu algoritma
+en iyi durumda bile O(n2) zaman aldığı için zaman açısından verimsiz
+bir algoritma olarak sınıflandırılıyor. En önemli avantajı bellek
+kullanımında O(1) ekstra alan (temp değişken için ) kullanması. Bu avantajıyla
+da zaman açısından gerisinde kaldığı birçok gelişmiş algoritmayı geride bırakıyor.
+Birkaç elemandan oluşan dizileri sıralarken hızlı kod yazmak açısından
+bu algoritmayı kullanabilirsiniz.
