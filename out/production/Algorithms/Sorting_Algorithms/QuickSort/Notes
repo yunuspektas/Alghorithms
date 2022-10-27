@@ -1,0 +1,11 @@
+    Mantık : verilen dizinin ortasına yakın bir yerinden bir pivot eleman
+seçer ve pivottan büyük elemanları sağa, pivottan küçük elemanları sola
+kaydırır. Bu işlemi yaptıktan sonra pivot elemanın solundaki ve sağındaki
+dizilerden ayrı ayrı pivot elemanlar seçer ve o dizileri kendi içerisinde
+tekrar bu işleme tabi tutar. Rekürsif bir şekilde bu işlem devam ettikten
+sonra tüm dizi sıralanmış olur.
+
+  Bu algoritma en kötü durumda O(n2), ortalamada ise O(nlogn) zaman alır.
+Bu sayede performans olarak yukarıdaki tüm metotların üzerine çıkar.
+Bellek kullanımı olarak ise en kötü durumda O(n) ekstra alan kullanır
+ki bu da rekürsif olmasından kaynaklanır.

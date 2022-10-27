@@ -1,5 +1,5 @@
     Örneğin : İlk elemandan son elemana kadar her elemanı kendinden sonra
-gelen kendinden küçük elemanların en küçüğü ile yer değiştiriyoruz.
+gelen , kendinden küçük elemanların en küçüğü ile yer değiştiriyoruz.
 Örneğin aşağıdaki diziyi 3. elemanına kadar sıraladığımızı düşünelim
 ve daha sonra ne yapacağımıza bakalım.
 

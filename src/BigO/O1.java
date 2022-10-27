@@ -6,6 +6,7 @@ public class O1 {
     // Constant Complexity ( diğer ismi )
     public static void main(String[] args) {
         int[] arr = {10, 2, 20, 11000, 32142, 32131};
+        //arrayin son elemanını ekrana yazdıralım
         System.out.println(arr[arr.length - 1]);
 
         // başka bir örnek , sayı tek mi çift mi bulalım
