@@ -1,0 +1,38 @@
+5, 7, 9, 3, 4, 6 , 8 , 10 , 11 , 1 ,0 , 2  dizisi olsun. Shell sortta ilk olarak gapler belirlenir.
+Aslında bu gap denen şey kaçarlı sütun oluşturacağınıza karar vermekten başka bir şey değildir.
+Bizim burda gap’imiz 4 olsun. Gaplerin belirlenmesiyle aşağıdaki sutün yapısı oluşturulur.
+
+5 ,   7 ,  9 ,   3
+
+4,    6 ,  8 ,  10
+
+11 , 1 ,  0 ,   2
+
+Daha sonra her sutün kendi arasında sıralanır. İşte bu sıralama işleminde herhangi
+başka bir sıralama algoritması kullanabilirsiniz.
+
+5 ,    7 ,   9 ,  3                         4  ,      1  ,      0  ,     2
+
+4,     6,    8 ,  10        –>              5  ,       6 ,      8 ,     3
+
+11,    1 ,   0 ,   2                         11 ,      7 ,      9 ,    10
+
+Her sütun kendi arasında sıralandıktan sonra tekrar satırlar yanyana getirilerek dizi haline çevrilir.
+
+4 , 1 , 0 , 2 , 5 , 6 , 8 ,3 , 11 , 7 , 9 , 10
+
+Yukarıdaki aşama tekrar uygulanır. Ancak bu sefer gap bir önceki gap’in yarısı olur.
+Yani  4/2’den 2şerli sütunlar üzerinde işlem yaparız.
+
+  4      1                     0         1
+  0      2                     4         2
+  5      6       –>            5         3
+  8      3                     8         6
+ 11      7                     9         7
+  9     10                     11       10
+
+Tekrar diziyi satırlar yanyana gelecek şekilde birleştiririz ve yeni bir dizi oluştururuz.
+
+ 0, 1, 4, 2 ,5, 3, 8, 6 ,9 ,7 ,11 , 10
+
+Bu sefer üstteki aşamaları 1lik kolondan oluşan son dizi için yaparız ki bu da bizi sıralı diziye ulaştırır.

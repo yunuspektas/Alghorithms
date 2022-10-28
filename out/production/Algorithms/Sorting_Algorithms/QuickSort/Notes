@@ -1,4 +1,4 @@
-    Mantık : verilen dizinin ortasına yakın bir yerinden bir pivot eleman
+    Mantık : verilen dizinin herhangi bir yerinden bir pivot eleman
 seçer ve pivottan büyük elemanları sağa, pivottan küçük elemanları sola
 kaydırır. Bu işlemi yaptıktan sonra pivot elemanın solundaki ve sağındaki
 dizilerden ayrı ayrı pivot elemanlar seçer ve o dizileri kendi içerisinde

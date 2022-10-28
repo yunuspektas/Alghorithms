@@ -1,0 +1,4 @@
+Time Complexity : O(n2)
+Memory          : O(1) --> tempden dolayı
+
+küçük dizilerde iyi, ama büyük dizilerde çok yavaş kalıyor
